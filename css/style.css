@@ -71,8 +71,8 @@ Version:       1.1.0
 
     COLOR SCHEME:
 
-    Main Color : #edcb9a
-    Main Color Hover/Focus : #d8ba8e
+    Main Color : #9aaced
+    Main Color Hover/Focus : #00000
 
 =============================================================*/
 
@@ -1031,11 +1031,11 @@ a:hover, a:focus, a:active {
   opacity: .9;
 }
 
-.link-icon, .image-icon, .instagram-icon {
+.link-icon, .image-icon, .gram-icon {
   position: relative;
 }
 
-.link-icon:before, .image-icon:before, .instagram-icon:before {
+.link-icon:before, .image-icon:before, .gram-icon:before {
   font-family: Flaticon;
   position: absolute;
   top: calc(50% - 18px);
@@ -1073,12 +1073,12 @@ a:hover, a:focus, a:active {
   content: "\f100";
 }
 
-.instagram-icon:before {
+.gram-icon:before {
   font-family: FontAwesome;
   content: "\f16d"
 }
 
-.link-icon:hover:before, .image-icon:hover:before, .instagram-icon:hover:before {
+.link-icon:hover:before, .image-icon:hover:before, .gram-icon:hover:before {
   opacity: .8;
 }
 
@@ -1388,7 +1388,7 @@ textarea {
   visibility: hidden;
   height: 50px;
   width: 50px;
-  background: #edcb9a;
+  background: #9aaced;
   border-radius: 4px;
   right: 60px;
   bottom: 20px;
@@ -1413,7 +1413,7 @@ textarea {
 }
 
 .back-to-top:hover, .back-to-top:focus {
-  background: #d8ba8e;
+  background: #00000;
   -webkit-box-shadow: 0 5px 10px 0 rgba(35, 50, 56, 0.1);
   box-shadow: 0 5px 10px 0 rgba(35, 50, 56, 0.1);
 }
@@ -1463,24 +1463,24 @@ textarea {
 }
 
 .tooltip-inner {
-  background: #edcb9a;
+  background: #9aaced;
 }
 
 .tooltip.bs-tooltip-top .arrow:before {
-  border-top-color: #edcb9a;
+  border-top-color: #9aaced;
   bottom: 1px;
 }
 
 .tooltip.bs-tooltip-right .arrow:before {
-  border-right-color: #edcb9a;
+  border-right-color: #9aaced;
 }
 
 .tooltip.bs-tooltip-bottom .arrow:before {
-  border-bottom-color: #edcb9a;
+  border-bottom-color: #9aaced;
 }
 
 .tooltip.bs-tooltip-left .arrow:before {
-  border-left-color: #edcb9a;
+  border-left-color: #9aaced;
 }
 
 .pagination {
@@ -1554,7 +1554,7 @@ textarea {
 /* ===== 02.3 BUTTONS ===== */
 
 .btn {
-  background: #edcb9a;
+  background: #9aaced;
   color: #fff;
   letter-spacing: 0.5px;
   font-size: 15px;
@@ -1568,7 +1568,7 @@ textarea {
 }
 
 .btn:hover, .btn:focus, .btn:active {
-  background: #d8ba8e;
+  background: #00000;
   cursor: pointer;
   color: #fff;
   outline: none !important;
@@ -1709,11 +1709,11 @@ textarea {
   border-color: #bb0000;
 }
 
-.social-media .instagram {
+.social-media .gram {
   color: #125688;
 }
 
-.social-media .instagram:hover {
+.social-media .gram:hover {
   background: #125688;
   border-color: #125688;
 }
@@ -1732,14 +1732,14 @@ textarea {
 =============================================*/
 
 .topbar {
-  background: #edcb9a;
+  background: #9aaced;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 2px 0;
   font-size: 12px;
-  color: #ad926b;
+  color: #000000;
   font-weight: 500;
   text-transform: uppercase;
   z-index: 1030;
@@ -1787,7 +1787,7 @@ textarea {
 }
 
 .topbar .top-right-menu .top-menu li a {
-  color: #ad926b;
+  color: #000000;
   font-weight: 500;
   font-size: 12px;
   padding: 10px 5px;
@@ -2020,7 +2020,7 @@ header .brand .big-logo {
   margin-left: auto;
   margin-right: auto;
   clear: both;
-  background: #edcb9a;
+  background: #9aaced;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -2089,7 +2089,7 @@ header.horizontal-header .main-menu .menu .menu-item a, header.horizontal-header
 }
 
 header.horizontal-header .main-menu .menu .menu-item a:hover, header.horizontal .main-menu .menu .menu-item a:focus, header.horizontal-header .main-menu .menu .menu-item.open a, header.horizontal-header .main-menu .menu .menu-item.active a {
-  color: #d8ba8e;
+  color: #00000;
 }
 
 header.horizontal-header .main-menu .menu .menu-item:last-child a {
@@ -2409,7 +2409,7 @@ header.vertical-header .main-menu .menu .menu-item a {
 }
 
 header.vertical-header .main-menu .menu .menu-item a:hover, header.vertical-header .main-menu .menu .menu-item a:focus, header.vertical-header .main-menu .menu .menu-item.open a, header.vertical-header .main-menu .menu .menu-item.active a {
-  color: #d8ba8e;
+  color: #00000;
 }
 
 header.vertical-header .main-menu .menu .menu-item.menu-btn {
@@ -3001,13 +3001,13 @@ section.gray .brand-info .inner .content {
 
 .brand-info .inner .stars i {
   font-size: 18px;
-  color: #edcb9a;
+  color: #9aaced;
   margin: 0 2px;
 }
 
 .brand-info .inner .title {
   margin-top: 10px;
-  color: #edcb9a;
+  color: #9aaced;
 }
 
 /* ===== 05.3 SERVICES ===== */
@@ -3054,8 +3054,8 @@ section.gray .brand-info .inner .content {
   color: #fff;
   -webkit-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out;
-  background: #edcb9a;
-  border-color: #edcb9a;
+  background: #9aaced;
+  border-color: #9aaced;
 }
 
 .services .owl-thumb-item:hover {
@@ -3097,7 +3097,7 @@ section.gray .brand-info .inner .content {
 }
 
 .services .owl-thumb-item .media-left {
-  color: #edcb9a;
+  color: #9aaced;
   font-size: 2em;
   line-height: 2em;
   text-align: center;
@@ -4008,12 +4008,12 @@ footer .subfooter .social-media a i {
 }
 
 .daterangepicker td.start-date, .daterangepicker td.end-date, .daterangepicker td.available:hover {
-  background: #d8ba8e !important;
+  background: #00000 !important;
   color: #fff;
 }
 
 .daterangepicker td.in-range {
-  background: #edcb9a;
+  background: #9aaced;
   color: #fff;
 }
 
@@ -4364,8 +4364,8 @@ footer .subfooter .social-media a i {
 }
 
 .vertical-booking-form.dark {
-  background: #edcb9a;
-  border-color: #edcb9a;
+  background: #9aaced;
+  border-color: #9aaced;
 }
 
 .vertical-booking-form .form-title {
@@ -4432,7 +4432,7 @@ footer .subfooter .social-media a i {
   transform: translateY(-50%);
   width: 50px;
   height: 50px;
-  background: #edcb9a;
+  background: #9aaced;
   border-radius: 50%;
   text-align: center;
   line-height: 50px;
@@ -4447,7 +4447,7 @@ footer .subfooter .social-media a i {
 }
 
 .booking-form-toggle:hover, .booking-form-toggle.open {
-  background: #d8ba8e;
+  background: #00000;
 }
 
 .popup-booking-form {
@@ -4818,7 +4818,7 @@ footer .subfooter .social-media a i {
   height: 50px;
   position: absolute;
   display: block;
-  border-top: 50px solid #edcb9a;
+  border-top: 50px solid #9aaced;
   border-left: 50px solid transparent;
   top: 0;
   left: auto;
@@ -4897,7 +4897,7 @@ footer .subfooter .social-media a i {
 .room-list-item .room-price .price {
   margin-bottom: 30px;
   font-size: 20px;
-  color: #edcb9a;
+  color: #9aaced;
   text-transform: uppercase;
 }
 
@@ -5122,7 +5122,7 @@ footer .subfooter .social-media a i {
   display: block;
   font-size: 20px;
   font-weight: 400;
-  color: #edcb9a;
+  color: #9aaced;
 }
 
 .room-block-item .room-price .price small {
@@ -5184,7 +5184,7 @@ footer .subfooter .social-media a i {
   display: inline-block;
   float: right;
   margin-top: 32px;
-  color: #edcb9a;
+  color: #9aaced;
   font-size: 30px;
 }
 
@@ -5227,7 +5227,7 @@ footer .subfooter .social-media a i {
 }
 
 .room-slider-full-width .room-price {
-  background: #edcb9a;
+  background: #9aaced;
   border-radius: 50%;
   text-align: center;
 }
@@ -5271,7 +5271,7 @@ footer .subfooter .social-media a i {
 
 .room-reviews .rating-details .review-summary {
   text-align: center;
-  background-color: #edcb9a;
+  background-color: #9aaced;
   color: #fff;
   text-transform: uppercase;
   padding: 20px 10px;
@@ -5311,7 +5311,7 @@ footer .subfooter .social-media a i {
 }
 
 .room-reviews .rating-details .progress-bar {
-  background-color: #edcb9a
+  background-color: #9aaced
 }
 
 .room-reviews .review-box {
@@ -5576,7 +5576,7 @@ footer .subfooter .social-media a i {
 
 p.dropcap:first-letter {
   float: left;
-  color: #edcb9a;
+  color: #9aaced;
   font-size: 6em;
   line-height: 1em;
   margin: 0px 20px 5px 0;
@@ -6009,7 +6009,7 @@ blockquote:after {
 .page-title .breadcrumb li:last-child {
   padding: 5px 5px;
   border-radius: 2px;
-  color: #edcb9a;
+  color: #9aaced;
 }
 
 .page-title .breadcrumb li:last-child:after {
@@ -6247,7 +6247,7 @@ blockquote:after {
 }
 
 .gallery-filters .active, .gallery-filters .filter:hover {
-  color: #d8ba8e;
+  color: #00000;
 }
 
 .gallery-page .gallery-item {
@@ -6309,7 +6309,7 @@ section.restaurant .restaurant-menu-item {
 }
 
 .restaurant-menu-item .title span.price {
-  color: #edcb9a;
+  color: #9aaced;
 }
 
 section.restaurant .restaurant-menu-item .title span.price {
@@ -6644,7 +6644,7 @@ section.restaurant .restaurant-menu-item .title span.price {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  background: #edcb9a;
+  background: #9aaced;
   border-radius: 100%;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -6683,7 +6683,7 @@ section.restaurant .restaurant-menu-item .title span.price {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #edcb9a;
+  background: #9aaced;
   opacity: 0;
   -webkit-animation: loader2 3.4s infinite ease-in-out;
   animation: loader2 3.4s infinite ease-in-out;
@@ -6776,7 +6776,7 @@ section.restaurant .restaurant-menu-item .title span.price {
   border-radius: 100%;
   border-width: 1px;
   border-style: solid;
-  border-color: #edcb9a #efefef #efefef;
+  border-color: #9aaced #efefef #efefef;
   -webkit-animation: loader3 2s infinite linear;
   animation: loader3 2s infinite linear;
   left: 0;
@@ -6786,7 +6786,7 @@ section.restaurant .restaurant-menu-item .title span.price {
 }
 
 .dark.loader3 .spin span {
-  border-color: #edcb9a #333 #333;
+  border-color: #9aaced #333 #333;
 }
 
 .loader3 .spin img {
@@ -7158,8 +7158,8 @@ section .staff-item {
 }
 
 .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover, .nav-tabs .nav-link.active:hover, .nav-tabs .nav-link.active:focus {
-  background: #edcb9a;
-  border-color: #edcb9a;
+  background: #9aaced;
+  border-color: #9aaced;
   color: #fff;
 }
 

@@ -1961,8 +1961,8 @@ Version:       1.1.0
     if ($("#instafeed-gallery").length) {
       var galleryFeed = new Instafeed({
         get: "user",
-        userId: 6954412019,
-        accessToken: "6954412019.1677ed0.7a363e167d20449998757a3381ca9987",
+        userId: 3258828823,
+        accessToken: "3258828823.7d8b0e6.d4555c636d0544b4b788b657b840ee6a",
         resolution: "standard_resolution",
         useHttp: "true",
         template: '<figure class="gradient-overlay-hover instagram-icon"><a href="{{link}}" target="_blank"><img src="{{image}}" class="img-responsive"></a></figure>',

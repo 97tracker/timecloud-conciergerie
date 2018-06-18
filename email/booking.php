@@ -9,7 +9,7 @@ if($_POST)
 
     // Site Settings
     $site_title          = "Time Cloud";
-    $site_url            = "https://time-cloud-tracker97.c9users.io/index.html";
+    $site_url            = "https://timecloud-business.herokuapp.com/index.html";
     $facebook_link       = "https://www.facebook.com/";
     $twitter_link        = "https://twitter.com/";
     $admin_phone         = "+590 690 33 41 39";
